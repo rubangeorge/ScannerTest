@@ -9,8 +9,5 @@ public class RubanView
 		System.out.println("Enter your age -->> ");
 		String age = scs.next();
 		System.out.println("Hi "+name+ " Your age is "+age);
-		NameAgeModel nameModel = new NameAgeModel(name, age);
-		System.out.println("Object Printing -->> ");
-		System.out.println(nameModel);
 	}
 }
